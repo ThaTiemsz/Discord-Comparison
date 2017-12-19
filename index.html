@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Discord Comparison</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/semantic.min.css" rel="stylesheet" />
+    <!-- <link href="assets/datatables.min.css" rel="stylesheet" /> -->
+    <!-- <link href="assets/DataTables-1.10.16/css/dataTables.semanticui.min.css" rel="stylesheet" /> -->
+    <link href="assets/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/semantic.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/datatables.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/DataTables-1.10.16/js/jquery.dataTables.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/DataTables-1.10.16/js/dataTables.semanticui.min.js"></script> -->
+    <script type="text/javascript" src="assets/script.js"></script>
+</head>
+<body>
+
+<div class="ui inverted raised text container segment">
+    <h1 class="ui header">Discord Comparison</h1>
+    Compare stats between Discord servers.
+
+    <table class="ui inverted celled compact table center aligned" cellspacing="0">
+        <thead>
+            <th></th>
+        </thead>
+        <tr>
+            <th>Members</th>
+        </tr>
+        <tr>
+            <th>Presences</th>
+        </tr>
+        <tr>
+            <th>Text Channels</th>
+        </tr>
+        <tr>
+            <th>Voice Channels</th>
+        </tr>
+        <tr>
+            <th>Verification Level</th>
+        </tr>
+        <tr>
+            <th>Icon</th>
+        </tr>
+        <tr>
+            <th>Features</th>
+        </tr>
+        <tr>
+            <th>Splash</th>
+        </tr>
+    </table>
+
+    <div class="ui inverted form">
+        <div class="fields">
+            <div class="field">
+                <input type="text" id="invite-code" placeholder="Invite code">
+            </div>
+            <button id="add-server" class="ui icon button positive">
+                <i class="plus icon"></i>
+                Add Server
+            </button>
+        </div>
+        <div class="field">
+            <button id="remove-last" class="ui icon button negative">
+                <i class="minus circle icon"></i>
+                Remove Last
+            </button>
+            <button id="remove-all" class="ui icon button negative">
+                <i class="minus circle icon"></i>
+                Remove All
+            </button>
+        </div>
+        <div id="presets" class="ui buttons field">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

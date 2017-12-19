@@ -1,0 +1,11 @@
+body {
+    background: #7289DA;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 2%;
+    height: 0% !important;
+}
+
+div.ui.text.container {
+    max-width: 150% !important;
+}
